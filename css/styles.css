@@ -1,0 +1,47 @@
+:root {
+  --color-brand-dark: black;
+  --color-brand-light: gray;
+  --color-secondary-dark: brown;
+  --color-secondary-light: rgb(129, 174, 77);
+  --color-primary-light: antiquewhite;
+}
+
+/* Base */
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--color-primary-light);
+  color: var(--color-brand-dark);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Button */
+.button {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+  border: 2px solid var(--color-secondary-dark);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button-center {
+  text-align: center;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-secondary-dark);
+  background-color: var(--color-secondary-light);
+}
+
+/* Hero Section */
+.hero-title {
+  text-align: center;
+  font-size: 128px;
+}
+
+.hero-text {
+  text-align: center;
+}
