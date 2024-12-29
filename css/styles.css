@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --color-brand-dark: black;
   --color-brand-light: gray;
@@ -45,3 +46,86 @@ body {
 .hero-text {
   text-align: center;
 }
+=======
+@font-face {
+  font-display: swap;
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/be-vietnam-pro-v11-latin-300.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/be-vietnam-pro-v11-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/be-vietnam-pro-v11-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/be-vietnam-pro-v11-latin-900.woff2") format("woff2");
+}
+
+:root {
+  --color-brand-dark: black;
+  --color-brand-light: gray;
+  --color-secondary-dark: brown;
+  --color-secondary-light: rgb(129, 174, 77);
+  --color-primary-light: antiquewhite;
+}
+
+/* Base */
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--color-primary-light);
+  color: var(--color-brand-dark);
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Button */
+.button {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+  border: 2px solid var(--color-secondary-dark);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button-center {
+  text-align: center;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-secondary-dark);
+  background-color: var(--color-secondary-light);
+}
+
+/* Hero Section */
+.hero-title {
+  text-align: center;
+  font-size: 128px;
+}
+
+.hero-text {
+  text-align: center;
+}
+>>>>>>> 9c5f8f0 (First Normal commit)
